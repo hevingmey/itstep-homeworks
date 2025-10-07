@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# build artifacts
+*.o
+*.obj
+*.exe
+*.out
+build/
+cmake-build-*/
+
+# Xcode
+DerivedData/
