@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		30BE3EF72EA4211D0069A59F /* CopyFiles */ = {
+		30A2DF172EA65F1E00182FD1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		30BE3EF92EA4211D0069A59F /* homevork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homevork; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A2DF192EA65F1E00182FD1 /* task_10_10_25 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = task_10_10_25; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		30BE3EFB2EA4211D0069A59F /* homevork */ = {
+		30A2DF1B2EA65F1E00182FD1 /* task_10_10_25 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = homevork;
+			path = task_10_10_25;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30BE3EF62EA4211D0069A59F /* Frameworks */ = {
+		30A2DF162EA65F1E00182FD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30BE3EF02EA4211D0069A59F = {
+		30A2DF102EA65F1E00182FD1 = {
 			isa = PBXGroup;
 			children = (
-				30BE3EFB2EA4211D0069A59F /* homevork */,
-				30BE3EFA2EA4211D0069A59F /* Products */,
+				30A2DF1B2EA65F1E00182FD1 /* task_10_10_25 */,
+				30A2DF1A2EA65F1E00182FD1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30BE3EFA2EA4211D0069A59F /* Products */ = {
+		30A2DF1A2EA65F1E00182FD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30BE3EF92EA4211D0069A59F /* homevork */,
+				30A2DF192EA65F1E00182FD1 /* task_10_10_25 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,63 +60,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30BE3EF82EA4211D0069A59F /* homevork */ = {
+		30A2DF182EA65F1E00182FD1 /* task_10_10_25 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30BE3F002EA4211D0069A59F /* Build configuration list for PBXNativeTarget "homevork" */;
+			buildConfigurationList = 30A2DF202EA65F1E00182FD1 /* Build configuration list for PBXNativeTarget "task_10_10_25" */;
 			buildPhases = (
-				30BE3EF52EA4211D0069A59F /* Sources */,
-				30BE3EF62EA4211D0069A59F /* Frameworks */,
-				30BE3EF72EA4211D0069A59F /* CopyFiles */,
+				30A2DF152EA65F1E00182FD1 /* Sources */,
+				30A2DF162EA65F1E00182FD1 /* Frameworks */,
+				30A2DF172EA65F1E00182FD1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				30BE3EFB2EA4211D0069A59F /* homevork */,
+				30A2DF1B2EA65F1E00182FD1 /* task_10_10_25 */,
 			);
-			name = homevork;
+			name = task_10_10_25;
 			packageProductDependencies = (
 			);
-			productName = homevork;
-			productReference = 30BE3EF92EA4211D0069A59F /* homevork */;
+			productName = task_10_10_25;
+			productReference = 30A2DF192EA65F1E00182FD1 /* task_10_10_25 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30BE3EF12EA4211D0069A59F /* Project object */ = {
+		30A2DF112EA65F1E00182FD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					30BE3EF82EA4211D0069A59F = {
+					30A2DF182EA65F1E00182FD1 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 30BE3EF42EA4211D0069A59F /* Build configuration list for PBXProject "homevork" */;
+			buildConfigurationList = 30A2DF142EA65F1E00182FD1 /* Build configuration list for PBXProject "task_10_10_25" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 30BE3EF02EA4211D0069A59F;
+			mainGroup = 30A2DF102EA65F1E00182FD1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 30BE3EFA2EA4211D0069A59F /* Products */;
+			productRefGroup = 30A2DF1A2EA65F1E00182FD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30BE3EF82EA4211D0069A59F /* homevork */,
+				30A2DF182EA65F1E00182FD1 /* task_10_10_25 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30BE3EF52EA4211D0069A59F /* Sources */ = {
+		30A2DF152EA65F1E00182FD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +126,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		30BE3EFE2EA4211D0069A59F /* Debug */ = {
+		30A2DF1E2EA65F1E00182FD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		30BE3EFF2EA4211D0069A59F /* Release */ = {
+		30A2DF1F2EA65F1E00182FD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		30BE3F012EA4211D0069A59F /* Debug */ = {
+		30A2DF212EA65F1E00182FD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		30BE3F022EA4211D0069A59F /* Release */ = {
+		30A2DF222EA65F1E00182FD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30BE3EF42EA4211D0069A59F /* Build configuration list for PBXProject "homevork" */ = {
+		30A2DF142EA65F1E00182FD1 /* Build configuration list for PBXProject "task_10_10_25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30BE3EFE2EA4211D0069A59F /* Debug */,
-				30BE3EFF2EA4211D0069A59F /* Release */,
+				30A2DF1E2EA65F1E00182FD1 /* Debug */,
+				30A2DF1F2EA65F1E00182FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30BE3F002EA4211D0069A59F /* Build configuration list for PBXNativeTarget "homevork" */ = {
+		30A2DF202EA65F1E00182FD1 /* Build configuration list for PBXNativeTarget "task_10_10_25" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30BE3F012EA4211D0069A59F /* Debug */,
-				30BE3F022EA4211D0069A59F /* Release */,
+				30A2DF212EA65F1E00182FD1 /* Debug */,
+				30A2DF222EA65F1E00182FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30BE3EF12EA4211D0069A59F /* Project object */;
+	rootObject = 30A2DF112EA65F1E00182FD1 /* Project object */;
 }
