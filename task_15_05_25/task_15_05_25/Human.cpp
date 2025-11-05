@@ -6,9 +6,10 @@
 //
 #include "Human.h"
 #include <iostream>
-
+using namespace std;
 Human::Human( char* n,unsigned short a,unsigned int inn ):INN{inn}
 {
+    ++counter;
     setName(n);
     setAge(a);
 }
@@ -50,6 +51,20 @@ void Human::setAge(unsigned short a)
 {
     age=a;
 }
+void Human::print(){
+    cout<<"Human: \n";
+    cout<<getName()<<endl;
+    cout<<getAge()<<endl;
+    cout<<getINN()<<endl;
+    cout<<"=================\n\n";
+}
+int Human::getCounter(){
+    
+    return counter;
+}
+
+int Human::counter=0;
+
 Human::~Human( )
 {
     if (name!=nullptr)

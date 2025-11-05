@@ -54,26 +54,73 @@
 #include <iostream>
 #include "Human.h"
 using namespace std;
+//деструктор,статичні поля, робота з heap
+
+
+
+class Point {
+private:
+    int x;
+    int y;
+public:
+    Point (int x,int y)
+    {
+        this->x=x;
+        this->y=y;
+        cout<<"this from construkt"<<this<<endl;
+    }
+    void show( )
+    {
+        cout<<this->x<<endl<<this->y<<endl;
+    }
+};
 
 
 int main( ){
     
-    char name[30];
-    cout<<"enter name: ";
-    cin>>name;
-    unsigned short age;
-    cout<<"enter age: ";
-    cin>>age;
-    cout<<"enter INN: ";
-    unsigned int inn;
-    cin>>inn;
-    Human h1(name, age, inn);
-    cout<<h1.getName()<<endl;
-    cout<<h1.getAge()<<endl;
-    cout<<h1.getINN()<<endl;
+    Point p(3,4);
+    p.show();
+    Point p2(7,8);
+    p2.show();
     
-    Human* h2=new Human(name,age,inn);
-    delete h2;
+    
+//    Human h1;
+//    Human h2;
+//    Human h3;
+//    Human h4;
+//    Human* h5=new Human( );
+//    cout <<Human::getCounter()<<endl;
+//    h3.getCounter()
+//    int size;
+//    cout<<"enter size";
+//    cin>>size;
+//    Human* listOfHuman = new Human[size];
+//    for(int i=0;i<size;i++)
+//    {
+//        char name[30];
+//        cout<<"enter name: ";
+//        cin>>name;
+//        unsigned short age;
+//        cout<<"enter age: ";
+//        cin>>age;
+//        cout<<"enter INN: ";
+//        unsigned int inn;
+//        cin>>inn;
+//        listOfHuman[i].setName(name);
+//        listOfHuman[i].setAge(age);
+//    }
+//    for(int i=0;i<size;i++){
+//        listOfHuman[i].print();
+//        
+//    }
+//    delete[] listOfHuman;
+//    listOfHuman=nullptr;
+//    Human h1(name, age, inn);
+//    cout<<h1.getName()<<endl;
+//    cout<<h1.getAge()<<endl;
+//    cout<<h1.getINN()<<endl;
+    
+   
     
     return 0;
 }
