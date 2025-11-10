@@ -14,20 +14,20 @@ int main() {
     
     
     
-    cout << "\nСортуємо масив..." << endl;
+    cout << "\nСортуємо масив" << endl;
     a.sortArray();
     a.print();
 
     
     
     
-    cout << "\nЗмінюємо розмір на 7..." << endl;
+    cout << "\nЗмінюємо розмір " << endl;
     a.resize(7);
     a.print();
 
     
     
-    cout << "\nКопіюємо масив у b..." << endl;
+    cout << "\nКопіюємо масив  " << endl;
     MyArray b = a;
     b.print();
 
