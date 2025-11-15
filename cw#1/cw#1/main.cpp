@@ -87,7 +87,34 @@ public:
     {
         return Point{ x + n, y + n };
     }
+    
+operator int()
+    {
+        return this->x+this->y;
+        
+    }
+operator bool()
+    {
+        return ( this->x !=0 && this->y !=0)? true : false;
+        
+    }
+    Point& operator++()
+    {
+      this->x++;
+      this->y++;
+      return *this;
+    }//префіксна форма
+    Point& operator++(int)
+    {
+      Point p = *this;
+      this->x++;
+      this->y++;
+      return p;
+    }//постфіксна
 };
+    
+
+
 
 // int + Point
 Point operator+(int n, const Point& p)
@@ -103,39 +130,52 @@ Point operator-(int n, const Point& p)
 
 ostream& operator<<( ostream& out, const Point& obj)
 {
-    cout<<"X: "<<obj.getX()<<"y: "<<obj.getY();
+    cout<<"X: "<<obj.getX()<<" y: "<<obj.getY();
     return out;
+}
+istream& operator>>(istream& in , Point& obj)
+{
+    int x,y;
+    cout<<"enter x: ";
+    in>>x;
+    obj.setX(x);
+    cout<< "enter y: ";
+    in>>y;
+    obj.setY(y);
+    return in;
+    
 }
 
 int main()
 {
     Point p{3,4};
-    cout<<p;
+    cin>>p;
     
-    int arr[] = {4, 5, 6, 7};
-    size_t size = sizeof(arr) / sizeof(arr[0]);
-
-    MyArray marr1{arr, size};
-    cout << marr1[0] << endl;   // 4
-
-    Point p1{12, 15};
-    Point p2{7, 8};
-
-    Point p4 = p1 + 10;   // Point + int
-    Point p5 = 10 + p1;   // int + Point
-    Point p6 = 30 - p1;   // int - Point
-
-    p4.showPoint();
-    p6.showPoint();
-
-    if (p1 > p2)
-        cout << "p1 > p2\n";
-
-    if (p1 != p2)
-        cout << "p1 != p2\n";
-
-    Point p3 = p1 + p2;   // Point + Point
-    p3.showPoint();
+    
+//    int arr[] = {4, 5, 6, 7};
+//    size_t size = sizeof(arr) / sizeof(arr[0]);
+//
+//    MyArray marr1{arr, size};
+//    cout << marr1[0] << endl;   // 4
+//
+//    Point p1{12, 15};
+//    Point p2{7, 8};
+//
+//    Point p4 = p1 + 10;   // Point + int
+//    Point p5 = 10 + p1;   // int + Point
+//    Point p6 = 30 - p1;   // int - Point
+//
+//    p4.showPoint();
+//    p6.showPoint();
+//
+//    if (p1 > p2)
+//        cout << "p1 > p2\n";
+//
+//    if (p1 != p2)
+//        cout << "p1 != p2\n";
+//
+//    Point p3 = p1 + p2;   // Point + Point
+//    p3.showPoint();
 
     return 0;
 }
